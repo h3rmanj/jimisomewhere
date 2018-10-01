@@ -9,11 +9,11 @@ export default class extends Component {
 				<div className="IframeWrapper">
 					<iframe
 						src="https://player.vimeo.com/video/285881104?title=0&byline=0&portrait=0&transparent=0&autoplay=1&loop=1"
-						frameborder="0"
+						frameBorder="0"
 						title="Funny Cat Videos For Kids"
 						webkitallowfullscreen=""
 						mozallowfullscreen=""
-						allowfullscreen=""
+						allowFullScreen=""
 						data-ready="true" />
 				</div>
 			</div>
