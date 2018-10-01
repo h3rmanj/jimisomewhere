@@ -21,7 +21,7 @@ const dates = [
 	},
 	{
 		link: "",
-		location: "scotland",
+		location: "scootland",
 		date: "27.10.18"
 	},
 	{
