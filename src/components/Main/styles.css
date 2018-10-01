@@ -1,0 +1,41 @@
+
+.Main{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+.IframeTop {
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.IframeWrapper {
+  position: relative;
+  padding-bottom: 200%;
+  transform: translateY(-35.95%);
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.LinkWrapper {
+	position: absolute;
+	bottom: 5em;
+	width: 100%;
+}
+
+.LinkWrapper * {
+	margin: 0 0.5em;
+	font-size: 36px;
+	font-weight: bolder;
+}
