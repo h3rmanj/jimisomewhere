@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import './App.css';
-import Mobile from './components/Mobile';
-import Desktop from './components/Desktop';
+const Mobile = lazy(() = import('./components/Mobile'));
+const Desktop = lazy(() = import('./components/Desktop'));
 
 const isMobile = {
 	Android: () => navigator.userAgent.match(/Android/i),
@@ -12,6 +12,11 @@ const isMobile = {
 	any: () => isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows()
 };
 
-export default () => isMobile.any()
-  ? <Mobile />
-  : <Desktop />;
+export default () => (
+	<Suspense fallback={<div></div>}>
+		{isMobile.any()
+	  	? <Mobile />
+	  	: <Desktop />
+		}
+	</Suspense>
+);
