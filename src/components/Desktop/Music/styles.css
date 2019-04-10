@@ -5,7 +5,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  position: absolute;
+  position: fixed;
 }
 
 .Music > * {
@@ -43,6 +43,10 @@
   font-size: 24px;
   color: yellow;
   user-select: none;
+}
+
+.MusicLinks span {
+  padding-bottom: 5rem;
 }
 
 .MusicLinks a:first-child, .MusicLinks span:first-child {

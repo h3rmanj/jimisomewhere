@@ -1,5 +1,6 @@
-import React, { lazy, Suspense } from 'react';
+import React, { lazy, Suspense, useMemo } from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
+import useReactRouter from 'use-react-router';
 import { BarLoader } from 'react-spinners'
 import './styles.css';
 const Booklet = lazy(() => import('./Booklet'));
@@ -18,14 +19,24 @@ const MusicHome = () => (
   </>
 );
 
-const Music = () =>
-  <div className="Music">
-    <Suspense fallback={<div><BarLoader color='#89A000' width={200} height={8} css={{width: '100%', margin: '30% auto'}}/></div>}>
-      <Switch>
-        <Route path="/music/booklet" component={Booklet} />
-        <Route path="/music" component={MusicHome} />
-      </Switch>
-    </Suspense>
-  </div>
+const Music = () => {
+  const { location } = useReactRouter();
+  const style = useMemo(() => (
+    location.pathname === "/music/booklet"
+    ? { overflowY: 'auto' }
+    : null
+  ), [location.pathname]);
+
+  return (
+    <div className="Music" style={style}>
+      <Suspense fallback={<div><BarLoader color='#89A000' width={200} height={8} css={{width: '100%', margin: '30% auto'}}/></div>}>
+        <Switch>
+          <Route path="/music/booklet" component={Booklet} />
+          <Route path="/music" component={MusicHome} />
+        </Switch>
+      </Suspense>
+    </div>
+  );
+};
 
 export default Music;
