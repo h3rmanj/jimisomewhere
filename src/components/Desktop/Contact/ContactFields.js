@@ -17,7 +17,7 @@ const ContactFields = () => (
 		<ContactField title="mgmt" at="michael@brusjan.no" />
 		<ContactField title="booking" at={["MORTEN.GJERSUM@STAGEWAY.NO (NO)", "GUILLAUME@ATC-LIVE.COM (EU)", "JMOSS@PARADIGMAGENCY.COM (US)"]} />
 		<ContactField title="press" at={["JON@CHALKPRESSAGENCY.CO.UK (EU)", "NANCY.LU@FANCYPR.COM (US)"]} />
-		<ContactField title="label" at="jimisomewhere@gmail.com" />
+		<ContactField title="label" at="BRAEDON@NEXTWAVERECS.COM" />
 		<ContactField title="all social media" at="@jimisomewhere" />
 	</div>
 );

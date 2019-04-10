@@ -61,6 +61,9 @@ const Booklet = () => {
         </div>
       }
 
+      <div className="mDownload">
+        <a href="/booklet.pdf" download="PONYBOY BOOKLET">DOWNLOAD</a>
+      </div>
 
       <div className="mBack">
         <Link to="/music">BACK</Link>

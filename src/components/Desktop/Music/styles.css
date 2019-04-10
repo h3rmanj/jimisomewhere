@@ -46,20 +46,37 @@
 }
 
 .MusicLinks span {
+  top: 1rem;
+  padding-top: 1rem;
   padding-bottom: 5rem;
+  font-size: 18px;
 }
 
 .MusicLinks a:first-child, .MusicLinks span:first-child {
-  margin-right: 5rem;
+  margin-right: 10rem;
 }
 .MusicLinks a:last-child, .MusicLinks span:last-child {
-  margin-left: 5rem;
+  margin-left: 10rem;
+}
+
+.mDownload {
+  position: absolute;
+  top: calc(4rem - 18px);
+  left: 0;
+  width: 100%;
+  color: yellow;
+  text-align: center
+}
+
+.mDownload a {
+  font-size: 18px;
 }
 
 .mBack {
   position: absolute;
   top: 0;
   left: 0;
+  width: auto;
   margin: 2rem;
   font-size: 24px;
   color: yellow;
