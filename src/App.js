@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from 'react';
 import './App.css';
-const Mobile = lazy(() = import('./components/Mobile'));
-const Desktop = lazy(() = import('./components/Desktop'));
+const Mobile = lazy(() => import('./components/Mobile'));
+const Desktop = lazy(() => import('./components/Desktop'));
 
 const isMobile = {
 	Android: () => navigator.userAgent.match(/Android/i),
