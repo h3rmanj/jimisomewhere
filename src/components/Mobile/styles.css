@@ -1,0 +1,44 @@
+.MobileApp {
+	background: url("/bgmobile.jpg") no-repeat center #eee;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+  font-family: 'jimi', Helvetica, Arial, Sans-Serif;
+  text-align: center;
+}
+
+.MobileMain {
+  width: 100%;
+  color: yellow;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.MobileMain a {
+  display: block;
+  margin: 50px;
+  cursor: pointer;
+  font-size: 24px
+}
+
+.Contact.Mobile .ContactFields {
+  right: 0;
+  top: 50px;
+}
+
+.Contact.Mobile .ContactField {
+  font-size: 14px;
+}
+
+.Contact.Mobile .back {
+	position: absolute;
+  width: 100%;
+	bottom: 0;
+  right: 0;
+  margin: 0;
+	margin-bottom: 5rem;
+  text-align: center;
+	font-weight: bold;
+}

@@ -1,13 +1,20 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Route
+  Route,
+  Switch
 } from 'react-router-dom';
+import Main from './Main';
+import Contact from './Contact';
+import './styles.css';
 
 const Mobile = () => (
   <Router>
     <div className="MobileApp">
-      <Route path="/" />
+      <Switch>
+        <Route path="/contact" component={Contact} />
+        <Route path="/" component={Main} />
+      </Switch>
     </div>
   </Router>
 );

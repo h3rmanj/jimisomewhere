@@ -2,15 +2,6 @@ body {
 	margin: 0;
 }
 
-.MobileApp {
-	background: url("/bgmobile.jpg") no-repeat center #eee;
-	background-size: cover;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	overflow: hidden;
-}
-
 .App {
 	font-family: 'jimi', Helvetica, Arial, Sans-Serif;
 	width: 100%;
