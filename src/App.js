@@ -1,22 +1,17 @@
 import React from 'react';
 import './App.css';
-import Main from './components/Main'
-import Contact from './components/Contact'
-import Dates from './components/TourDates'
-import {
-  BrowserRouter as Router,
-  Route
-} from 'react-router-dom';
-import jimi4 from './img/jimi4.png';
-import jimi3 from './img/jimi3.jpg'
+import Mobile from './components/Mobile';
+import Desktop from './components/Desktop';
 
-export default () =>
-	<Router>
-		<div className="App">
-			<Route path="/" component={Main} />
-			<Route path="/dates" component={Dates} />
-			<Route path="/contact" component={Contact} />
-			<img style={{width: "0"}} alt="jimi3" src={jimi3} />
-			<img style={{width: "0"}} alt="jimi4" src={jimi4} />
-		</div>
-	</Router>
+const isMobile = {
+	Android: () => navigator.userAgent.match(/Android/i),
+	BlackBerry: () => navigator.userAgent.match(/BlackBerry/i),
+	iOS: () => navigator.userAgent.match(/iPhone|iPad|iPod/i),
+	Opera: () => navigator.userAgent.match(/Opera Mini/i),
+	Windows: () => navigator.userAgent.match(/IEMobile/i),
+	any: () => isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows()
+};
+
+export default () => isMobile.any()
+  ? <Mobile />
+  : <Desktop />;
