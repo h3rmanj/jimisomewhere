@@ -22,7 +22,7 @@ const MusicHome = () => (
 const Music = () => {
   const { location } = useReactRouter();
   const style = useMemo(() => (
-    location.pathname === "/music/booklet"
+    location.hash === "#/booklet"
     ? { overflowY: 'auto' }
     : null
   ), [location.pathname]);
