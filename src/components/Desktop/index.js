@@ -3,7 +3,7 @@ import Main from './Main';
 import Music from './Music';
 import Contact from './Contact';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route
 } from 'react-router-dom';
 import jimi3 from '../../img/jimi3.jpg'
