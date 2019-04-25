@@ -9,7 +9,7 @@ import Contact from './Contact';
 import './styles.css';
 
 const Mobile = () => (
-  <Router>
+  <Router hashType="noslash">
     <div className="MobileApp">
       <Switch>
         <Route path="/contact" component={Contact} />

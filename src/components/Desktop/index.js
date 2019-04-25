@@ -9,7 +9,7 @@ import {
 import jimi3 from '../../img/jimi3.jpg'
 
 const Desktop = () => (
-  <Router>
+  <Router hashType="noslash">
     <div className="App">
       <Route path="/" component={Main} />
       <Route path="/(music|booklet)" component={Music} />
