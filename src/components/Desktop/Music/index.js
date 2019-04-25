@@ -11,7 +11,7 @@ const MusicHome = () => (
     </div>
     <div className="MusicLinks">
       <a href="https://ffm.to/ponyboy" target="_blank" rel="noopener noreferrer">LISTEN</a>
-      <Link to="/music/booklet">BOOKLET</Link>
+      <Link to="/booklet">BOOKLET</Link>
     </div>
     <div className="mBack">
       <Link to="/">BACK</Link>
@@ -31,7 +31,7 @@ const Music = () => {
     <div className="Music" style={style}>
       <Suspense fallback={<div><BarLoader color='#89A000' width={200} height={8} css={{width: '100%', margin: '30% auto'}}/></div>}>
         <Switch>
-          <Route path="/music/booklet" component={Booklet} />
+          <Route path="/booklet" component={Booklet} />
           <Route path="/music" component={MusicHome} />
         </Switch>
       </Suspense>
