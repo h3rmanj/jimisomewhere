@@ -14,9 +14,9 @@ const ContactField = ({title, at}) =>
 
 const ContactFields = () => (
 	<div className="ContactFields" >
-		<ContactField title="mgmt" at="michael@brusjan.no" />
-		<ContactField title="booking" at={["MORTEN.GJERSUM@STAGEWAY.NO (NO)", "GUILLAUME@ATC-LIVE.COM (EU)", "JMOSS@PARADIGMAGENCY.COM (US)"]} />
-		<ContactField title="press" at={["JON@CHALKPRESSAGENCY.CO.UK (EU)", "NANCY.LU@FANCYPR.COM (US)"]} />
+		<ContactField title="mgmt" at={["michael@furosound.no", "braedon@nextwaverecs.com"]} />
+		<ContactField title="booking" at={["kess@allthingslive.com (NO)", "GUILLAUME@ATC-LIVE.COM (EU)", "JMOSS@PARADIGMAGENCY.COM (US)"]} />
+		<ContactField title="press" at={["skayden@fancypr.com", "NANCY.LU@FANCYPR.COM"]} />
 		<ContactField title="label" at="BRAEDON@NEXTWAVERECS.COM" />
 		<ContactField title="all social media" at="@jimisomewhere" />
 	</div>
