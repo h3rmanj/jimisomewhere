@@ -5,7 +5,10 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	text-align: center;
+  text-align: center;
+  background-color: white;
+  font-family: 'Lust Script Display', sans-serif;
+  
 }
 
 .IframeTop {
@@ -13,6 +16,7 @@
   height: 0;
   overflow: hidden;
   position: relative;
+  
 }
 
 .IframeWrapper {
@@ -38,4 +42,11 @@ iframe {
 	margin: 0 1em;
 	font-size: 24px;
 	font-weight: bold;
+}
+
+.bgImage {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; 
 }
