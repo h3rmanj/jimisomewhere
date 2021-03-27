@@ -4,8 +4,8 @@
     margin: auto;
 	font-size: 40px;
     font-weight:bold;
-    text-align: center;
-    margin-bottom: 30px;
+	text-align: center;
+    margin-bottom: 50px;
 
 }
 .Shows {
@@ -42,18 +42,15 @@
 	height: 300px;
 	top: calc(50% - 150px);
 	width: auto;
-	right: -53px;
+	right: -46px;
     margin: auto;
-    
- 
+
 }
 
 .ShowsFields a {
 	margin: 1rem;
 	font-size: 18px;
 	text-decoration: underline;
-	margin-left: 97px;
-	
 	
 	
 }

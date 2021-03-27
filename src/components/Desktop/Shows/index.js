@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css';
-import showsBG from '../../../img/contact_page.png'
+import showsBG from '../../../img/shows_page.png'
 
 
 export default class extends Component {
