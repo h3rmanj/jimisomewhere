@@ -1,4 +1,14 @@
-.Contact {
+.ShowsHeader{
+    font-family: 'Lust Script Display', sans-serif;
+    color: #1c5d2e;
+    margin: auto;
+	font-size: 40px;
+    font-weight:bold;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.Shows {
 	position:absolute;
 	width: 100%;
 	height: 100%;
@@ -6,50 +16,74 @@
 	left: 0;
 	overflow: hidden;
 	background-color: #66da89;
+	
+	
 }
 
-.ContactJimi {
-	left: -200px;
+
+.ShowsJimi {
+	left: -300px;
 }
 
-.ContactWrapper {
+.ShowsWrapper {
 	position: relative;
 	margin: 0;
-	top: 0;
+	top: -140px;
+	left: -850px;
 	height: 100%;
 	width: 1200px;
 	min-width: 1200px;
 	margin: 0 auto;
 }
 
-.ContactFields {
+.ShowsFields {
 	text-align: right;
 	position: absolute;
 	height: 300px;
 	top: calc(50% - 150px);
 	width: auto;
-	right: 100px;
-	margin: 0;
+	right: -53px;
+    margin: auto;
+    
+ 
 }
 
-.ContactFields a {
+.ShowsFields a {
 	margin: 1rem;
-	font-size: 48px;
+	font-size: 18px;
+	text-decoration: underline;
+	margin-left: 97px;
+	
+	
+	
 }
 
-.ContactField {
+.ShowsField {
 	text-transform: uppercase;
-	text-align: right;
+	text-align: left;
 	font-weight: normal;
 	margin: 1rem;
 	font-size: 18px;
+	color: #1c5d2e;
+	font-family: 'Knockout', sans-serif;
+	
 }
 
 .back {
 	position: absolute;
-	right: 100px;
-	bottom: 0;
+	left: 550px;
+	top: 200px;
 	font-weight: bold;
 	margin: 1rem;
 	margin-bottom: 5rem;
+	color: #1c5d2e;
+	font-family: 'Knockout', sans-serif;
 }
+
+.bgImage {
+	display: block;
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover; 
+  }
+

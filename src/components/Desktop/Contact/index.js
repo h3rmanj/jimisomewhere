@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ContactFields from './ContactFields';
 import './styles.css';
-import jimi from '../../../img/contact_page.png'
+import contactBG from '../../../img/contact_page.png'
 
 export default () =>
 	<div className="Contact">
-		<img className="bgImage" src={jimi} alt="Jimi Somewhere"/>
+		<img className="bgImage" src={contactBG} alt="contactBG"/>
 		<div className="ContactWrapper">
 		
 			<ContactFields />

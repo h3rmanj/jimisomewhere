@@ -1,16 +1,17 @@
 .MobileApp {
-	background: url("/bgmobile.jpg") no-repeat center #eee;
-	background-size: cover;
+	background: url("/bgmobile.png") no-repeat center #eee;
+	background-size: contain;
 	width: 100%;
 	height: 100%;
 	position: absolute;
-  font-family: 'jimi', Helvetica, Arial, Sans-Serif;
+  font-family: 'Lust Script Display', sans-serif;
+  color: #dcd09c; /*color of navigation links*/
   text-align: center;
 }
 
 .MobileMain {
   width: 100%;
-  color: yellow;
+  color: #dcd09c;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -20,7 +21,7 @@
   display: block;
   margin: 50px;
   cursor: pointer;
-  font-size: 24px
+  font-size: 30px
 }
 
 .Contact.Mobile {
