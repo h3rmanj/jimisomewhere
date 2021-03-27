@@ -14,6 +14,7 @@ const Desktop = () => (
       <Route path="/" component={Main} />
       <Route path="/(music|booklet)" component={Music} />
       <Route path="/contact" component={Contact} />
+      
       <img style={{width: "0"}} alt="jimi3" src={jimi3} />
     </div>
   </Router>
