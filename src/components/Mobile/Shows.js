@@ -2,10 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import '../Desktop/Contact/styles.css';
+import ShowsFields from '../Desktop/Shows/ShowsFields';
 
 const Shows = () =>
     <div className="Contact Mobile">
-            <h1>Shows</h1>
+            
+            <ShowsFields />
 			<div className="back">
 				<Link to="/">BACK</Link>
 			</div>

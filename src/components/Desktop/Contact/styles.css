@@ -58,6 +58,12 @@
 	
 }
 
+.ContactField a{
+	margin: 0;
+	font-size: 17px;
+	
+}
+
 .back {
 	position: absolute;
 	left: 550px;

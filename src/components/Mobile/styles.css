@@ -26,25 +26,43 @@
 
 .Contact.Mobile {
 	background-color: #000;
-	color: yellow;
+	color: #1c5d2e;
 }
 
 .Contact.Mobile .ContactFields {
-  right: 0;
+  right: 8px;
   top: 50px;
+  margin: auto;
 }
 
 .Contact.Mobile .ContactField {
   font-size: 14px;
+  margin-top: 40px;
+  
 }
 
 .Contact.Mobile .back {
-	position: absolute;
+
   width: 100%;
 	bottom: 0;
-  right: 0;
+  right: 10px;
   margin: 0;
 	margin-bottom: 5rem;
   text-align: center;
-	font-weight: bold;
+  font-weight: bold;
+  color: white;
+
+}
+
+.Contact.Mobile .contactHeader{
+  
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.Contact.Mobile .ShowsField {
+  font-family: 'Knockout', sans-serif;
+  margin-top: 40px;
+
+
 }
