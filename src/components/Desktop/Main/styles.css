@@ -5,7 +5,10 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	text-align: center;
+  text-align: center;
+  font-family: 'Lust Script Display', sans-serif;
+  color: #dcd09c; /*color of navigation links*/
+  
 }
 
 .IframeTop {
@@ -13,6 +16,7 @@
   height: 0;
   overflow: hidden;
   position: relative;
+  
 }
 
 .IframeWrapper {
@@ -35,7 +39,14 @@ iframe {
 }
 
 .LinkWrapper * {
-	margin: 0 1em;
-	font-size: 24px;
+	margin: 0 2em;
+	font-size: 30px;
 	font-weight: bold;
+}
+
+.bgImage {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; 
 }

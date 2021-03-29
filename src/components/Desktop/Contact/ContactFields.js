@@ -14,11 +14,13 @@ const ContactField = ({title, at}) =>
 
 const ContactFields = () => (
 	<div className="ContactFields" >
+		<h1 className="contactHeader">Contact</h1>
 		<ContactField title="mgmt" at={["michael@furosound.no", "braedon@nextwaverecs.com"]} />
 		<ContactField title="booking" at={["kess@allthingslive.com (NO)", "GUILLAUME@ATC-LIVE.COM (EU)", "JMOSS@PARADIGMAGENCY.COM (US)"]} />
 		<ContactField title="press" at={["skayden@fancypr.com", "NANCY.LU@FANCYPR.COM"]} />
 		<ContactField title="label" at="BRAEDON@NEXTWAVERECS.COM" />
-		<ContactField title="all social media" at="@jimisomewhere" />
+		<br/>
+		<div className="ContactField"> <a href="https://www.instagram.com/jimisomewhere/">@jimisomewhere</a></div>
 	</div>
 );
 
