@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Video from './Video';
 import './styles.css';
 import jimi from '../../../img/main_background.png'
 
@@ -9,7 +8,7 @@ export default class extends Component {
 		<div>
 		
 			<div className="Main">
-			<img className="bgImage" src={jimi}/>
+			<img className="bgImage" src={jimi} alt="background" />
 				<div className="LinkWrapper">
 		
 					<a href="https://ffm.to/ngcs">Music</a>
