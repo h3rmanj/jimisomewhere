@@ -42,7 +42,7 @@
 	height: 300px;
 	top: calc(50% - 150px);
 	width: auto;
-	right: -46px;
+	right: 50px;
     margin: auto;
 
 }
@@ -68,7 +68,7 @@
 
 .back {
 	position: absolute;
-	left: 550px;
+	left: 80px;
 	top: 200px;
 	font-weight: bold;
 	margin: 1rem;
