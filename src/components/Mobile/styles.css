@@ -30,23 +30,26 @@
 }
 
 .Contact.Mobile .ContactFields {
-  right: 8px;
-  top: 50px;
-  margin: auto;
+  position: absolute; 
+  
+  right: 0; 
+  top: 0;
+ 
+  width: 100%; /* Need a specific value to work */
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Contact.Mobile .ContactField {
   font-size: 14px;
   margin-top: 40px;
-  
+  text-align: center;
 }
 
 .Contact.Mobile .back {
 
-  width: 100%;
-	bottom: 0;
-  right: 10px;
-  margin: 0;
+
 	margin-bottom: 5rem;
   text-align: center;
   font-weight: bold;
@@ -55,9 +58,11 @@
 }
 
 .Contact.Mobile .contactHeader{
-  
+  margin: auto;
+  margin-top: 10%;
   margin-bottom: 10px;
   text-align: center;
+  
 }
 
 .Contact.Mobile .ShowsField {

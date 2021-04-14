@@ -41,8 +41,8 @@
 	position: absolute;
 	height: 300px;
 	top: calc(50% - 150px);
-	width: auto;
-	right: 50px;
+	width: 400px;
+	right: calc(50% - 400px);
     margin: auto;
 
 }

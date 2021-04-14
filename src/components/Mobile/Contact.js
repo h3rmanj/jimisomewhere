@@ -6,9 +6,7 @@ import '../Desktop/Contact/styles.css';
 const Contact = () =>
     <div className="Contact Mobile">
       <ContactFields/>
-			<div className="back">
-				<Link to="/">BACK</Link>
-			</div>
+		
     </div>
 
 export default Contact;
