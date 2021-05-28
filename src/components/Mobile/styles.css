@@ -25,7 +25,7 @@
 }
 
 .Contact.Mobile {
-	background-color: #000;
+	background-color: white;
 	color: #1c5d2e;
 }
 
@@ -67,7 +67,7 @@
 
 .Contact.Mobile .ShowsField {
   font-family: 'Knockout', sans-serif;
-  margin-top: 40px;
+  margin-top: 12px;
 
 
 }
