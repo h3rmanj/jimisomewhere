@@ -68,6 +68,8 @@
 .Contact.Mobile .ShowsField {
   font-family: 'Knockout', sans-serif;
   margin-top: 12px;
+  text-decoration: underline;
+  font-weight: bold;
 
 
 }

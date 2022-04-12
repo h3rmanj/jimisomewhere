@@ -51,14 +51,14 @@
 	margin: 1px;
 	font-size: 15px;
 	text-decoration: underline;
-	
+		font-weight: bold;
 	
 }
 
 .ShowsField {
 	text-transform: uppercase;
 	text-align: center;
-	font-weight: normal;
+
 	margin: 6px;
 	font-size: 18px;
 	color: #1c5d2e;
