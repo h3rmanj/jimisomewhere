@@ -7,7 +7,7 @@ const ShowsFields = () => (
     <h1 className="ShowsHeader">Shows</h1>
 
 <div className="ShowsField"><a href="http://link.dice.fm/OvqfQfRJCgb">02.05.22 - Paris, France</a></div>
-<div className="ShowsField"><a href="https://www.seetickets.com/event/jimi-somewhere/colours/1860004">03.05.22 - London, United Kingdom</a></div>
+<div className="ShowsField"><a href="https://www.seetickets.com/event/jimi-somewhere/colours/1860004">04.05.22 - London, United Kingdom</a></div>
 <div className="ShowsField"><a href="http://hdfst.uk/E64776">05.05.22 - Bristol, United Kingdom</a></div>
 <div className="ShowsField"><a href="https://www.seetickets.com/event/jimi-somewhere/yes-the-basement-/1859652">06.05.22 - Manchester, United Kingdom</a></div>
 <div className="ShowsField"><a href="https://link.dice.fm/AHH8vhuJzgb">07.05.22 - Leeds, United Kingdom</a></div>
